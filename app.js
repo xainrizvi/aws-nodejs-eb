@@ -1,5 +1,5 @@
 // Load the AWS SDK
-/*var AWS = require('aws-sdk')
+var AWS = require('aws-sdk')
 
 var express = require('express')
 var bodyParser = require('body-parser')
@@ -25,11 +25,11 @@ var port = process.env.PORT || 3000
 var server = app.listen(port, function () {
   console.log('Server running at http://127.0.0.1:' + port + '/')
 })
-/*
+
 
 /**
  * Module dependencies.
- */
+ /*
 
 var express = require('express')
 , routes = require('./routes')
@@ -76,3 +76,4 @@ app.get('/:id', link.redirect);
 http.createServer(app).listen(app.get('port'), function(){
 	console.log("Express server listening on port " + app.get('port'));
 });
+*/
